@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="42271" started-at="2023-07-11T20:40:17 IST" finished-at="2023-07-11T20:41:00 IST">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistationTest@5ed828d]" name="test_account_Registration" class="testCases.TC_001_AccountRegistationTest"/>
+        <method signature="TC_002_LoginTest.test_login()[pri:0, instance:testCases.TC_002_LoginTest@63440df3]" name="test_login" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_LoginTest.test_login()[pri:0, instance:testCases.TC_002_LoginTest@63440df3]" name="test_login" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistationTest@5ed828d]" name="test_account_Registration" class="testCases.TC_001_AccountRegistationTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Surefire test" duration-ms="42271" started-at="2023-07-11T20:40:17 IST" finished-at="2023-07-11T20:41:00 IST">
+      <class name="testCases.TC_002_LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@63440df3]" name="setup" is-config="true" duration-ms="2534" started-at="2023-07-11T20:40:55 IST" finished-at="2023-07-11T20:40:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_login()[pri:0, instance:testCases.TC_002_LoginTest@63440df3]" name="test_login" duration-ms="1440" started-at="2023-07-11T20:40:57 IST" finished-at="2023-07-11T20:40:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@63440df3]" name="tearDown" is-config="true" duration-ms="707" started-at="2023-07-11T20:40:59 IST" finished-at="2023-07-11T20:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_LoginTest -->
+      <class name="testCases.TC_001_AccountRegistationTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistationTest@5ed828d]" name="setup" is-config="true" duration-ms="5425" started-at="2023-07-11T20:40:17 IST" finished-at="2023-07-11T20:40:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistationTest@5ed828d]" name="test_account_Registration" duration-ms="31394" started-at="2023-07-11T20:40:23 IST" finished-at="2023-07-11T20:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_Registration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistationTest@5ed828d]" name="tearDown" is-config="true" duration-ms="725" started-at="2023-07-11T20:40:54 IST" finished-at="2023-07-11T20:40:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_AccountRegistationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
